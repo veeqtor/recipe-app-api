@@ -1,0 +1,19 @@
+version: "3"
+services:
+  app:
+    # The application build
+    build:
+      # the context of the application
+      context: .
+    ports:
+      # Mapps the port to the
+      # port on the container
+      - "8000:8000"
+
+    volumes:
+      #  for automatic updating the
+      # container if there is any change
+      - ./app:/app
+
+    command: >
+      sh -c "python manage.py runnserver 0.0.0.0:8000"
