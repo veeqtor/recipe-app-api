@@ -9,9 +9,10 @@ autopep8 = "*"
 flake8 = "*"
 
 [packages]
-flake8 = "*"
 djangorestframework = "*"
 django = "*"
+pillow = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
