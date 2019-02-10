@@ -1,5 +1,7 @@
 {
-    "python.pythonPath": "/Users/victornwokeocha/.pyenv/versions/3.7.2/bin/python",
+    "python.pythonPath": "/Users/victornwokeocha/.local/share/virtualenvs/recipe-app-api-CSlM60dY/bin/python",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.flake8Enabled": true
 }

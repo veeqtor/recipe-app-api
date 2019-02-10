@@ -4,7 +4,8 @@ services:
     # The application build
     build:
       # the context of the application
-      context: .
+      context: ./
+      dockerfile: docker/Dockerfile
     ports:
       # Maps the port to the
       # port on the container
